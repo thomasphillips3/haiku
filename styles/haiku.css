@@ -8,6 +8,7 @@
   margin: 0 auto;
 }
 header, main, footer {
+  display: flex;
   background: black;
   width: 100%;
   border: 0.1em solid white;
@@ -19,6 +20,26 @@ header, footer {
   height: 12.5%;
 }
 
+header {
+  font-family: 'Baumans', sans-serif;
+}
+
 main {
   height: 75%;
+  font-family: 'Slackey', sans-serif;
+}
+
+footer {
+  font-family: 'Unkempt', sans-serif;
+}
+
+
+
+
+{
+  font-family: 'Unkempt', sans-serif;
+  font-family: 'Slackey', sans-serif;
+  font-family: 'Baumans', sans-serif;
+  font-family: 'Monoton', sans-serif;
+  font-family: 'Unica One', sans-serif;
 }

@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>Haikus</title>
-    <link rel="stylesheet" href="styles/haiku.css">
+    <link rel='stylesheet' href='styles/haiku.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Unkempt|Slackey|Baumans|Monoton|Unica+One' type='text/css'>
   </head>
   <body>
-    <div class="page-wrapper">
+    <div class='page-wrapper'>
       <header>
-        Header
+        <h1>Haiku Analyzer</h1>
       </header>
 
       <main>
-        Body
+        <!-- <h1>Main</h1> -->
+        <form id="haikuEntry">
+          <div>
+            <label for="line1">Line 1:</label>
+            <input type="text" id="line1" />
+          </div>
+          <div>
+            <label for="line2">Line 2:</label>
+            <input type="text" id="line2" />
+          </div>
+          <div>
+            <label for="line3">Line 3:</label>
+            <input type="text" id="line3" />
+          </div>
+          <div class="button">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
       </main>
 
       <footer>
-        Footer
+        <h1>Footer</h1>
       </footer>
     </div>
   </body>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
-  <script type="text/javascript" src="scripts/haiku.js"></script>
+  <script type='text/javascript' src='https://code.jquery.com/jquery-2.2.0.js'></script>
+  <script type='text/javascript' src='scripts/haiku.js'></script>
 </html>
