@@ -6,6 +6,7 @@
   width: 95%;
   position: absolute;
   margin: 0 auto;
+  font-family: 'Baumans', sans-serif;
 }
 header, main, footer {
   display: flex;
@@ -21,16 +22,14 @@ header, footer {
 }
 
 header {
-  font-family: 'Baumans', sans-serif;
 }
 
 main {
   height: 75%;
-  font-family: 'Slackey', sans-serif;
+  text-align: center;
 }
 
 footer {
-  font-family: 'Unkempt', sans-serif;
 }
 
 
